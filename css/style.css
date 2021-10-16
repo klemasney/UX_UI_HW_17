@@ -2,8 +2,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #ad0;
 }
-
 .top-nav ul li{
     list-style-type: none;
     display: inline-block;
