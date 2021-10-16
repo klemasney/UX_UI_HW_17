@@ -1,35 +1,22 @@
-.inline-block {
-    background-color: #373738;
-    display: inline-block;
-    vertical-align: top;
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-p {
-    font-family: sans-serif;
+.top-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.top-nav a{
+    text-decoration: none;
+    color: #56af91;
+    padding: 12px 20px;
+
 }
 
 .logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+    height: 48px;
 }
 
-nav {
-    width: 100%;
-    margin-left:auto;
-}
-
-.heroImg {
-    height: 600px;
-    padding: 25px;
-}
-
-.content{
-    width: 500px;
-    margin: 0 auto;
-}
-
-footer {
-    background-color: #373738;
-    padding: 25px;
-}
